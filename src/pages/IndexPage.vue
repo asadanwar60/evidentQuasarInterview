@@ -7,6 +7,7 @@
           label="Create User"
           color="primary"
           no-caps
+          data-cy="create"
           @click="$router.push({ name: 'add-user' })"
         />
       </div>

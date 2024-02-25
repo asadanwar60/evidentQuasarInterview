@@ -1,4 +1,4 @@
-# evidentQuasar (evident-quasar)
+### evidentQuasar
 
 A quasar project for evident.
 
@@ -6,7 +6,11 @@ A quasar project for evident.
 
 2.I've added a "Create User" button to demonstrate routing, which directs users to the "Add User" page. The "Add User" page features input fields without any actual functionality; they're merely placeholders. Additionally, the page includes an "Add User" button that redirects users back to the index page, with no further functionalities implemented.
 
-## Install the dependencies
+3.Cypress is set up within the "e2e/test" branch. It starts by clicking on the "create user" button on the index page, then verifies the redirected URL before proceeding with the add user form on the adduser page. For further information, please refer to the code.
+
+4.For more details related to Cypress of this project follow "https://docs.cypress.io/guides/getting-started/opening-the-app"
+
+### Install the dependencies
 
 ```bash
 yarn
@@ -44,6 +48,12 @@ npm run format
 yarn build
 # or
 quasar build
+```
+
+### Cypress run
+
+```bash
+yarn run cypress open
 ```
 
 ### Customize the configuration
